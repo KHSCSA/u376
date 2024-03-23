@@ -34,10 +34,10 @@ public class SelectionSort
             // Swap current with minimum element if they're different
             if(ratings.get(i) != ratings.get(minIndex))
             {
-            // Swap current with minimum element
-            int temp = ratings.get(i);
-            ratings.set(i, ratings.get(minIndex));
-            ratings.set(minIndex, temp);
+                // Swap current with minimum element
+                int temp = ratings.get(i);
+                ratings.set(i, ratings.get(minIndex));
+                ratings.set(minIndex, temp);
             }
         }
         
