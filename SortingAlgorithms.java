@@ -3,7 +3,7 @@ import java.util.ArrayList;
 public class SortingAlgorithms{
     // TODO - write new method makeArray
     // TODO - write new method selectionSort (that receives an array)
-    // TODO = write new method insertionSort (that receives an array)
+    // TODO - write new method insertionSort (that receives an array)
 
 
     public static ArrayList<Integer> makeArrayList(int num, int min, int max){
@@ -43,8 +43,6 @@ public class SortingAlgorithms{
 
 
     public static void insertionSort(ArrayList<Integer> nums){
-        /* your code goes here */
-
         // Iterate through the list starting at the second element.
         // Recall that for an insertion sort, the first element is considered sorted.
         for (int i = 1; i < nums.size(); i++){
